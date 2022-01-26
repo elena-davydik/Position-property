@@ -5,7 +5,8 @@
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: auto;
+    min-width: 610px;
     height: 800px;
     margin: 0 auto;
     position: relative;
