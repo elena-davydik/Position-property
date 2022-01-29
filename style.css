@@ -6,15 +6,16 @@
 
 .wrapper {
     max-width: auto;
+    width: 1000px;
     min-width: 610px;
-    height: 800px;
+    height: 1000px;
     margin: 0 auto;
     position: relative;
 }
 
 .big-square {
-    width: 400px;
-    height: 400px;
+    width: 40%;
+    height: 40%;
     background-color: rgb(42, 81, 255);
     position: absolute;
     top: 50%;
@@ -28,26 +29,26 @@
 }
 
 .small-square {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 20%;
     border-radius: 10%;
     background-color: yellow;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
     z-index: 3;
 }
 
 .top-left-circle {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     background-color: red;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
-    transform: translate(-150%, -50%);
+    transform: translate(-150%, -150%);
     z-index: 1;
 }
 .top-left-circle:hover {
@@ -56,14 +57,14 @@
 }
 
 .top-right-circle {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     background-color: red;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -150%);
     z-index: 1;
 }
 .top-right-circle:hover {
@@ -72,14 +73,14 @@
 }
 
 .bottom-left-circle {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     background-color: red;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
-    transform: translate(-150%, 150%);
+    transform: translate(-150%, 50%);
     z-index: 1;
 }
 .bottom-left-circle:hover {
@@ -88,14 +89,14 @@
 }
 
 .bottom-right-circle {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     background-color: red;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
-    transform: translate(50%, 150%);
+    transform: translate(50%, 50%);
     z-index: 1;
 }
 .bottom-right-circle:hover {
